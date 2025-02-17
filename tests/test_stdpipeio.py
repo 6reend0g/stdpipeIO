@@ -1,7 +1,11 @@
-import unittest
-from unittest.mock import patch
 import io
 import sys
+import os
+import unittest
+from unittest.mock import patch
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
+from stdpipeIO.std_pipe_io import std_pipe_io
 
 
 class TestPipeIO(unittest.TestCase):
