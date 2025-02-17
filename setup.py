@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='stdpipeIO',
-    version='0.1.3',
+    version='0.1.4',
     author='Greendog',
     author_email='x6reend0g@foxmail.com',
     description='A simple decorator for receiving and sending data via the standard pipe',
