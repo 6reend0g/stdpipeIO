@@ -6,7 +6,7 @@ setup(
     author='Greendog',  
     author_email='x6reend0g@foxmail.com', 
     description='A simple decorator for receiving and sending data via the standard pipe',  
-    long_description=open('README.md').read(),
+    long_description=open('README.md',encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     # url='https://github.com/yourusername/your_project_name', 
     packages=find_packages(where='src'),

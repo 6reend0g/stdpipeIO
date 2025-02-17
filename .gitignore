@@ -1,2 +1,5 @@
 __pycache__/
+src/stdpipeIO.egg-info/
+dist/
+build/
 *.pyc
