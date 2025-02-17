@@ -2,7 +2,7 @@
 import sys
 import functools
 
-def pipe_io(func):
+def std_pipe_io(func):
     """
     Decorator: Reads data from standard input, passes it to the function,
     and writes the result to standard output.

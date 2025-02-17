@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import patch
 import io
 import sys
-from src.pipeio import pipe_io  # Import the decorator being tested
+
 
 class TestPipeIO(unittest.TestCase):
     @patch('sys.stdin', new_callable=io.StringIO)
@@ -13,7 +13,7 @@ class TestPipeIO(unittest.TestCase):
         mock_stdin.seek(0)  # Reset cursor to the beginning of the file
         
         # Define a function using the pipe_io decorator
-        @pipe_io
+        @std_pipe_io
         def process_input(input_data):
             return input_data.upper()
         
