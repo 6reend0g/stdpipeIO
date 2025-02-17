@@ -14,9 +14,9 @@ pip install stdpipeIO
 To use the pipe_io decorator, simply import it and apply it to your function. The decorated function will read input from stdin, process it, and write the result to stdout.
 
 ```sh
-from src.pipeio import pipe_io
+from stdpipeIO.std_pipe_io import std_pipe_io
 
-@pipe_io
+@std_pipe_io
 def process_input(input_data):
     return input_data.upper()
 
