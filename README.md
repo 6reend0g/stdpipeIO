@@ -1,5 +1,9 @@
 # stdpipeIO
 
+![github](https://img.shields.io/github/release/6reend0g/stdpipeIO)
+![PyPI - Version](https://img.shields.io/pypi/v/stdpipeIO?color=blue)
+
+
 stdpipeIO is a simple Python decorator for receiving and sending data via the standard pipe. It allows you to easily read input from standard input (stdin) and write output to standard output (stdout).
 
 ## Installation
